@@ -1,0 +1,234 @@
+<mjml>
+  <mj-head>
+  <mj-title>Grubhub Receipt</mj-title>
+  <mj-preview>
+    Your pickup order from Windy City Chicago Style Pizza is being prepared. Your food should be ready between 11:20am – 11:30am.
+  </mj-preview>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+    </mj-style>
+
+    <mj-style inline="inline">
+      .bg-white {
+        background-color: #ffffff;
+      }
+
+      .link1 {
+        color: #2072EB;
+        text-decoration: none;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#EFEFEF">
+
+    <mj-raw>
+      <!--  Top Border -->
+    </mj-raw>
+    <mj-divider width="600px" border-color="#F27405" border-width="3px" />
+
+    <mj-raw>
+      <!--  Header -->
+    </mj-raw>
+    <mj-section css-class="bg-white">
+      <mj-column>
+        <mj-image align="left" src="https://i.ibb.co/bzzgx1N/logo.png" alt="Grubhub logo" href="https://www.grubhub.com/?utm_source=order_created&utm_medium=email_transactional&utm_campaign=header&utm_content=order" width="140px" />
+        <mj-text font-size="14px" line-height="1.5" padding-top="0">
+          <h2>Thank you for ordering, Raynell</h2>
+          <p style="font-size: 15px">Your pickup order from <b>Windy City Chicago Style Pizza</b> is being prepared. Your food should be ready between <b>11:20am – 11:30am</b>.</p>
+        </mj-text>
+        <mj-button padding-top="0" align="left" inner-padding="15px" width="190px" background-color="#5729F8" border-radius="30px" font-size="14px">
+          Track your order
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Pickup -->
+    </mj-raw>
+    <mj-section padding="25px" css-class="bg-white">
+      <mj-text font-size="16px">
+        <b>Windy City Chicago Style Pizza</b>
+        <p style="font-size: 20px; color: #373737">Total: $9.00</p>
+      </mj-text>
+      <mj-spacer height="1px" />
+      <mj-text line-height=".75" font-size="14px" color="#ABABB9">
+        <p>Ordered: Sep 20, 2023 11:12:52am</p>
+        <p>Order number: #31082380-8076724 </p>
+        <p>Contact Restaurant: <a class="link1" href="#" alt="phone number">(725) 205-0290</a></p>
+      </mj-text>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Divider -->
+    </mj-raw>
+    <mj-section align="center" padding="0" css-class="bg-white">
+      <mj-column width="600px">
+        <mj-divider border-width="1px" border-color="#CACACA" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!--  Order & Charges -->
+    </mj-raw>
+    <mj-section padding="0" css-class="bg-white">
+      <mj-column>
+        <mj-text line-height=".5">
+          <h3>Pickup from</h3>
+          <p style="font-size: 16px;">Windy City Chicago Style Pizza</p>
+          <p style="font-size: 16px">3655 S Durango Dr, Las Vegas NV</p>
+          <a href="#" class="link1" style="font-size: 16px">(725) 205-0290</a>
+        </mj-text>
+        <mj-text color="#5729F8">
+          <a href="https://www.google.com/maps?daddr=3655+S+Durango+Dr,+Las+Vegas,+NV,+89147-4104" alt="google maps" style="font-weight: bold; text-decoration: none">Get directions</a>
+        </mj-text>
+      </mj-column>
+
+      <mj-column>
+        <mj-image src="https://i.ibb.co/jWw7Vxb/staticmap.png" alt="map" width="350px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Divider -->
+    </mj-raw>
+    <mj-section align="center" padding="0" css-class="bg-white">
+      <mj-column width="600px">
+        <mj-divider border-width="1px" border-color="#CACACA" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0" css-class="bg-white">
+      <mj-group>
+        <mj-column>
+          <mj-text>
+            <h3>2 Pizza Puff</h3>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text align="right" font-size="15px" color="#7C7C7C">
+            <p>$8.00</p>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Divider -->
+    </mj-raw>
+    <mj-section align="center" padding="0" css-class="bg-white">
+      <mj-column width="600px">
+        <mj-divider border-width="1px" border-color="#CACACA" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="10px 0px 5px" css-class="bg-white">
+      <mj-group>
+        <mj-column>
+          <mj-text font-size="15px" color="#262626">
+            Items subtotal
+          </mj-text>
+          <mj-text font-size="15px" color="#262626">
+            Sales tax
+          </mj-text>
+          <mj-text font-size="15px" color="#262626">
+            Tip
+          </mj-text>
+          <mj-text font-size="15px" color="#262626">
+            Donation
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-text align="right" font-size="15px" color="#7C7C7C">
+            $8.00
+          </mj-text>
+          <mj-text align="right" font-size="15px" color="#7C7C7C">
+            $0.67
+          </mj-text>
+          <mj-text align="right" font-size="15px" color="#7C7C7C">
+            $0.00
+          </mj-text>
+          <mj-text align="right" font-size="15px" color="#7C7C7C">
+            $0.33
+          </mj-text>
+        </mj-column>
+      </mj-group>
+
+    </mj-section>
+
+    <mj-raw>
+      <!-- Divider -->
+    </mj-raw>
+    <mj-section align="center" padding="0" css-class="bg-white">
+      <mj-column width="600px">
+        <mj-divider border-width="1px" border-color="#CACACA" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="10px 0px 5px" css-class="bg-white">
+      <mj-group>
+        <mj-column>
+          <mj-text font-size="16px" color="#262626">
+            <b>Total charge</b>
+          </mj-text>
+          <mj-text font-size="12px" color="#262626" line-height=".5">
+            <p>Payment Method</p>
+            <p>ApplePay - 1331</p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-text align="right" font-size="18px">
+            <b>$9.00</b>
+          </mj-text>
+          <mj-text align="right" font-size="14px">
+            <b>$9.00</b>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Divider -->
+    </mj-raw>
+    <mj-section align="center" padding="0" css-class="bg-white">
+      <mj-column width="600px">
+        <mj-divider border-width="1px" border-color="#CACACA" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0px" css-class="bg-white">
+      <mj-column width="300px">
+        <mj-image align="center" src="https://i.ibb.co/hyd3Zkq/GHG-Banner.png" href="https://www.grubhub.com/login?redirectUrl=%2Fhelp%2Fcontact-us%2Fguarantee-claims" alt="Grubub Guarantee" />
+      </mj-column>
+      <mj-column width="300px">
+        <mj-image align="center" src="https://i.ibb.co/6t1Rj5r/GHPlus-Banner.png" alt="Grubhub+" href="https://www.grubhub.com/plus?utm_source=order_confirmed&utm_medium=email_transactional&utm_campaign=plus_transactional-banner&utm_content=unlimitedfd_cb" />
+      </mj-column>
+
+      <mj-section>
+        <mj-column>
+          <mj-text align="left" font-size="12px" line-height="1.5" color="#ABABB9">
+            Any changes you make to your order after it has been placed may result in additional charges.
+          </mj-text>
+          <mj-spacer height="5px" />
+          <mj-text line-height="1.5" font-size="12px" color="#ABABB9">
+            We sent you this email to give you the latest information about your Grubhub order. Please don't reply to this email.
+          </mj-text>
+          <mj-spacer height="5px" />
+          <mj-text color="#ABABB9">
+            Need more help? <a href="https://www.grubhub.com/help/contact-us?utm_source=order_confirmed&utm_medium=email_transactional&utm_campaign=contactus&utm_content=order" class="link1">Check out our FAQs.</a>
+          </mj-text>
+          <mj-spacer height="5px" />
+          <mj-text line-height="1.5" color="#ABABB9">
+            © 2021 Grubhub Inc.<br>
+            111 W. Washington St., Suite 2100,<br>
+            Chicago, IL, 60602, USA
+          </mj-text>
+        </mj-column>
+      </mj-section>
+  </mj-body>
+</mjml>
