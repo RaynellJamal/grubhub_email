@@ -26,9 +26,13 @@
   <mj-body background-color="#EFEFEF">
 
     <mj-raw>
-      <!--  Top Border -->
+      <!--  Top Divider/Border -->
     </mj-raw>
-    <mj-divider width="600px" border-color="#F27405" border-width="3px" />
+    <mj-section padding="0">
+    <mj-column width="100%">
+    <mj-divider padding="0px" border-color="#F27405" border-width="3px" />
+    </mj-column>
+    </mj-section>
 
     <mj-raw>
       <!--  Header -->
